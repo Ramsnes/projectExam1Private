@@ -1,0 +1,205 @@
+/* hero banner  */
+.hero {
+  background-image: url("/images/Carlos-Gracie-1536x824.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.hero-content {
+  text-align: center;
+  animation: fadeIn 2s; /* fade-in animation */
+  background: rgba(255, 255, 255, 0.7);
+  color: black;
+  border-radius: 10px;
+  backdrop-filter: blur(2px);
+}
+
+.hero-content p {
+  margin: 20px 30px;
+  font-size: 1.4rem;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* timeline  */
+.timeline-event {
+  width: 70%;
+  margin: 20px auto;
+  padding: 0px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.timeline-event h3 {
+  text-align: center;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.timeline-event h3:hover {
+  background: #fff;
+}
+
+.timeline-content {
+  display: none; /* Initially hide the content */
+  padding: 10px;
+}
+
+.timeline-event.active .timeline-content {
+  display: block; /* And then I display content when the event is active */
+}
+
+.video-section {
+  text-align: center;
+}
+
+.about-us {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.video-section {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* video frame  */
+.video-section iframe {
+  width: 100%;
+  height: 315px;
+  border: none;
+}
+
+.about-us img {
+  height: 250px;
+  border-radius: 0.2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
+  border: 1px solid black;
+  margin: 0 0 0 10px;
+}
+
+h2 {
+  text-align: center;
+}
+
+/*header differs from index for some reason*/
+header {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 250px;
+}
+
+@media (max-width: 1000px) {
+  .mainContainer {
+    margin: 50px 70px;
+  }
+
+  .hero {
+    height: 300px;
+  }
+
+  .hero-content {
+    width: 450px;
+  }
+
+  .hero-content p {
+    font-size: 1.2rem;
+  }
+
+  .about-us img {
+    height: 200px;
+  }
+
+  .video-section iframe {
+    width: 100%; /* Sets 100% for responsiveness */
+    max-width: 300px;
+    height: auto;
+  }
+}
+
+@media (max-width: 500px) {
+  header {
+    margin-top: 58px;
+  }
+
+  .hero-content p {
+    font-size: 0.95rem;
+  }
+
+  .hero {
+    height: 200px;
+  }
+
+  .about-us {
+    margin: 20px auto;
+  }
+
+  .hero-content {
+    width: 100%;
+    border-radius: 0px;
+  }
+
+  .about-us img {
+    height: 100px;
+    position: absolute;
+    right: 5px;
+    top: 335px;
+  }
+
+  .nav-container div {
+    margin: 70px 100px;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+
+  .navbar-links.active {
+    top: 0.7rem;
+    left: -3.5rem;
+  }
+  /*fixed values for the hamb menu and logo for about and detailed.html*/
+  .toggle-button {
+    top: 2.95rem;
+    left: 13rem;
+  }
+
+  .logo {
+    left: 5rem;
+    top: 2.32rem;
+  }
+
+  .mainContainer {
+    margin: -12px 70px;
+  }
+
+  .about-images {
+    margin: 20px;
+  }
+
+  .video-section {
+    margin: 0 0 20px 0;
+  }
+}

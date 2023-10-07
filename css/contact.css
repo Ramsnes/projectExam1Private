@@ -1,0 +1,205 @@
+.page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*header differs from index for some reason*/
+header {
+  margin-top: 30px;
+}
+
+/*
+
+Contact form
+*/
+.contact-form {
+  margin: 10px;
+  /* border: 2px solid white; */
+}
+
+.contact-info p {
+  color: #ddd;
+  margin: 20px 0px;
+}
+
+/* Colors the error messages */
+.nameError,
+.emailError,
+.subjectError,
+.messageBoxError {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  color: rgb(220, 59, 59);
+  font-weight: 600;
+}
+
+form {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #000;
+  border-radius: 1rem;
+  font-size: 1.3rem;
+}
+
+form fieldset {
+  max-width: 182px;
+  max-height: 400px;
+  overflow-y: auto; /* Add vertical scroll if the content overflows */
+}
+
+form fieldset input {
+  width: 550px;
+  border: 1px solid black;
+}
+
+fieldset div {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+#error {
+  display: none; /* hide messages above, but keep code */
+  font-size: 1.3rem;
+  margin: 10px 300px 20px;
+  color: rgb(220, 59, 59);
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  margin: 10px 250px;
+}
+
+#formButton {
+  background: rgb(133, 11, 11);
+  width: 200px;
+  padding: 1rem;
+  border-radius: 0.2rem;
+  color: #ffffff;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  transform: scale(0.9);
+}
+
+#formButton:hover {
+  background: rgba(133, 11, 11, 0.9);
+  transform: scale(1);
+}
+
+.button-wrapper {
+  display: flex;
+  margin: 10px 0 10px 15px;
+}
+
+.contact-form h1 {
+  margin: auto;
+  font-size: 1.1em;
+}
+
+.contact-form {
+  justify-content: center;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form p {
+  text-align: center;
+  margin: 8px;
+}
+
+.contact-text {
+  margin: 0 300px;
+}
+
+.map-container {
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+  border: 2px solid #336699;
+  border-radius: 3px;
+}
+
+@media (max-width: 1000px) {
+  header {
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  form fieldset input {
+    /* width: 390px; */
+    width: 200px;
+  }
+
+  .nameError,
+  .emailError,
+  .subjectError,
+  .messageBoxError {
+    font-size: 0.9rem;
+  }
+
+  #error {
+    margin: 0 100px 20px;
+    font-size: 1.2rem;
+  }
+
+  #form {
+    font-size: 1.2rem;
+  }
+
+  .contact-text {
+    margin: 0 100px;
+  }
+
+  #formButton {
+    width: 150px;
+    padding: 0.65rem;
+    /* font-size: 0.75; */
+  }
+}
+
+@media (max-width: 500px) {
+  header {
+    margin: 12px auto 40px;
+  }
+
+  .nameError,
+  .emailError,
+  .subjectError,
+  .messageBoxError {
+    font-size: 0.8rem;
+  }
+
+  .map-container {
+    width: 300px;
+  }
+
+  .contact-text {
+    margin: 0 50px;
+  }
+
+  #error {
+    margin: 0px 50px 5px;
+    font-size: 1rem;
+  }
+
+  #form {
+    font-size: 1rem;
+  }
+
+  .toggle-button {
+    top: 1.4rem;
+  }
+
+  .logo {
+    top: 0.75rem;
+  }
+}

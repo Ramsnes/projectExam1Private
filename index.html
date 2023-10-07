@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Hotjar Tracking Code for Project exam 1 -->
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 3643302, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="JiuJitsuBlogs, blogs about Jiu Jitsu." />
+    <link rel="stylesheet" href="/css/index.css" />
+    <link rel="stylesheet" href="/css/global.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/images/favicon_io/favicon-16x16.png"
+    />
+    <title>Jiu jitsu | Home</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav-container">
+        <div class="logoContainer">
+          <a href="/index.html">
+            <img
+              src="/images/jiujitsuLogo.jpg"
+              alt="white logo with black font saying jiu jitsu"
+              class="logo"
+            />
+          </a>
+        </div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li class="current"><a href="/index.html">Home</a></li>
+            <li><a href="/blogs.html">Blogs</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="blackLine"></div>
+    </header>
+
+    <main>
+      <div class="page-container">
+        <div class="welcome-banner">
+          <h1>Jiu-Jitsu Blogs</h1>
+        </div>
+        <h2 class="mastersHeader">Masters of the game</h2>
+        <!-- Image slider inspiration source: (MJ Phillip) https://codepen.io/mjphillip/pen/wvoQBNq -->
+        <section class="image-accordion">
+          <figure class="selected-image">
+            <img src="images/bjj05.jpeg" alt="Rickson Gracie" />
+          </figure>
+          <figure>
+            <img src="images/leandroLo2.png" alt="Leandro Lo" />
+          </figure>
+          <figure>
+            <img src="images/bjj07.jpeg" alt="Royce Gracie" />
+          </figure>
+          <figure>
+            <img src="images/metamoris.jpeg" alt="Metamoris" />
+          </figure>
+        </section>
+
+        <!-- Carousel  -->
+        <h2 class="headline" style="text-align: center">Latest blog posts</h2>
+        <a href="blogs.html" class="button-outlined-small">View all</a>
+        <div class="carousel-container">
+          <div class="carousel-title-wrap">
+            <div class="carousel"></div>
+            <button class="prev">&lt;</button>
+            <button class="next">&gt;</button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="copyright">
+        <img class="some" src="images/icons.png" alt="SOME images" />
+        <p>Copyright Jiu Jitsu LLC &copy;</p>
+      </div>
+    </footer>
+    <script src="/js/index.js"></script>
+    <script src="/js/hamburger.js"></script>
+  </body>
+</html>
