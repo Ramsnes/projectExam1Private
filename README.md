@@ -1,71 +1,56 @@
-## Project Exam 1
+# Exam 1
 
-## Goal
+![image](projExamLarge.jpeg)
 
-To put into practice the skills learned over your first year of studies.
+The "Exam 1" project is a website used for portraying a blog within the website. The demographics are is Jiu-Jitsu practitioners and fans of the martial art.
 
-## Brief
+## Description
 
-You have been tasked with creating a blog site. You can choose the design and topics covered on the blog, but it should have at least the following pages:
+The demographics and styling of the project were a "free-choice", and so they became for the martial arts practitioners and a very clean and simple style, respectively. The website aims to be as interactive and dynamic as possible within the realms of the assignment. This project were a product of all previously learned skills and methods from the first years languages and programs, which includes HTML, CSS, JavaScript, WordPress and Figma.
 
-- Home page
-- About page
-- List of blog posts
-- Blog post specific pages
-- Contact page.
+Some bullet points:
 
-### Home Page
+- Simple and clean style
+- Demographics towards martial artists
+- Interactive and dynamic with JavaScript
+- A summarization of skills from my first year
 
-The home page should have a ‘Latest Posts’ section which uses a carousel (slider) for users to click to view more posts. For example, by default the user can see four posts, then they can click an arrow on the right to view the next four posts, and click it again to view the next four posts. The user can also click back to view results they had previously seen. This must be implemented for desktop at least, but if you want a simpler layout for mobile, you can change it from being in a carousel.
+## Built With
 
-### Blog Page
+- [HTML]
+- [CSS]
+- [JavaScript]
+- [WordPress]
+- [Figma]
 
-The blog posts page should show the first 10 blogs, and the user should click to view more results which then show underneath the first 10 blogs.
+## Getting Started
 
-### Blog Specific Page
+### Installing
 
-The content of the blog specific page should be dynamically built using a query string parameter based on whatever link the user clicked. The title of the blog specific page should change based on the blog that has been clicked on e.g. “My Blog | An Article I Wrote”.
+How to get started with the project:
 
-If images on the blog post page are clicked, a modal should appear giving the user a bigger view of that image. Clicking outside the image should hide the modal.
+1. Clone the repo:
 
-### Contact page
+```bash
+git clone git@github.com:Ramsnes/projectExam1Private.git
+```
 
-Create a contact us page, there should be 4 textboxes on this page.
+### Running
 
-- Name (Should be more than 5 characters long)
-- Email address (Must be a valid email address)
-- Subject (Should be more than 15 characters long)
-- Message content (Should be more than 25 characters long)
+Locate and navigate the cloned repo via the terminal using `cd` to navigate directories, and `ls` to view directories available.
 
-Please use JavaScript for validation, show error messages if the values in the textboxes do not meet the requirements.
+To open the project in you code editor, run the following commands:
 
-### WordPress
+```terminal
+code .
+```
 
-The content for your website will be stored on a WordPress installation used as a Headless CMS. It’s important to note that we are only using WordPress to provide an API and add content for the blog. You should not submit a link to a WordPress site, but build your website using HTML, CSS and JavaScript and making a call to the WordPress REST API to fetch the data.
+## Contributing
 
-The project has two aspects:
+You are welcome to fork the project to review it's codes. Follow the guide below to get started.
 
-- API from your WordPress installation
-- Your website built with HTML, CSS and JavaScript
+[How to get started](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
 
-You will need to add at least 12 blogs for your website. You can use lorem ipsum for paragraphs if you need, but headings, images etc. should all make sense.
+## Contact
 
-Note that this is an exam, and therefore tutor support will be limited as per the study plan.
-
-## Level 1 Process
-
-1. Decide on the theme for the blog you’re going to make
-2. Create a prototype of the website
-3. Install WordPress on your web host and add the blogs on the admin panel.
-4. Use the GitHub repo created by GitHub Classroom for your files and deploy to Netlify
-5. Build your website using HTML, CSS and JavaScript making a call to the WordPress REST API to fetch your data.
-6. Install Hotjar on your website.
-7. Ask users to test your website, and adjust based on their feedback and any insights from Hotjar.
-8. Write a report documenting your project (template provided in this repository).
-9. Submit your report as a PDF and a link to both your Netlify deployment and your GitHub repo.
-
-## Level 2 Process (optional)
-
-1. You can try adding a sort, filter, or search to the blog posts page allowing users to find the blog post more easily that they’re looking for.
-2. Post the data from the contact form to WordPress so you have the details saved.
-3. Allow users to submit comments on a blog post, and post this data to WordPress
+[My e-mail](morten.ramfjord@gmail.com)
