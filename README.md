@@ -4,6 +4,8 @@
 
 The "Exam 1" project is a website used for portraying a blog within the website. The demographics are is Jiu-Jitsu practitioners and fans of the martial art.
 
+Live site: **https://singular-cheesecake-503a97.netlify.app**
+
 ## Description
 
 The demographics and styling of the project were a "free-choice", and so they became for the martial arts practitioners and a very clean and simple style, respectively. The website aims to be as interactive and dynamic as possible within the realms of the assignment. This project were a product of all previously learned skills and methods from the first years languages and programs, which includes HTML, CSS, JavaScript with REST API, WordPress and Figma.
