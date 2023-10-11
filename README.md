@@ -6,7 +6,7 @@ The "Exam 1" project is a website used for portraying a blog within the website.
 
 ## Description
 
-The demographics and styling of the project were a "free-choice", and so they became for the martial arts practitioners and a very clean and simple style, respectively. The website aims to be as interactive and dynamic as possible within the realms of the assignment. This project were a product of all previously learned skills and methods from the first years languages and programs, which includes HTML, CSS, JavaScript, WordPress and Figma.
+The demographics and styling of the project were a "free-choice", and so they became for the martial arts practitioners and a very clean and simple style, respectively. The website aims to be as interactive and dynamic as possible within the realms of the assignment. This project were a product of all previously learned skills and methods from the first years languages and programs, which includes HTML, CSS, JavaScript with REST API, WordPress and Figma.
 
 Some bullet points:
 
@@ -20,6 +20,7 @@ Some bullet points:
 - [HTML]
 - [CSS]
 - [JavaScript]
+- [REST_API]
 - [WordPress]
 - [Figma]
 
